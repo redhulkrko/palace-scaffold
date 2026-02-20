@@ -1,0 +1,30 @@
+#mainNav {
+  background-color: #14171c;
+}
+
+#mainNav .nav-divider {
+  color: white;
+  font-weight: 300;
+  opacity: 0.6;
+  padding: 0 0.8rem;
+  user-select: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    height: 26px;
+  }
+}
+
+#mainNav .navbar-logo {
+  height: 30px;
+  width: auto;
+  max-height: 50px;
+}
+
+#mainNav .nav-link {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1rem;
+}

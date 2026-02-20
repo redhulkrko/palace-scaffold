@@ -1,0 +1,8 @@
+.layout {
+  background-color: #14171c;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  display: block;
+}

@@ -1,24 +1,17 @@
-body {
-  font-family: Rubik, sans-serif;
-  background: linear-gradient(to bottom, #264f7d, #000000);
-  background-attachment: fixed;
-}
-
-/* Admin dashboard layout */
-#wrapper {
+.admin-dashboard #wrapper {
   display: flex;
 }
 
-#content-wrapper {
+.admin-dashboard #content-wrapper {
   width: 100%;
   overflow-x: hidden;
 }
 
-#content {
+.admin-dashboard #content {
   flex: 1 0 auto;
 }
 
-.scroll-to-top {
+.admin-dashboard .scroll-to-top {
   position: fixed;
   right: 1rem;
   bottom: 1rem;
@@ -31,15 +24,15 @@ body {
   line-height: 46px;
 }
 
-.scroll-to-top:focus,
-.scroll-to-top:hover {
+.admin-dashboard .scroll-to-top:focus,
+.admin-dashboard .scroll-to-top:hover {
   color: white;
 }
 
-.scroll-to-top:hover {
+.admin-dashboard .scroll-to-top:hover {
   background: #5a5c69;
 }
 
-.scroll-to-top i {
+.admin-dashboard .scroll-to-top i {
   font-weight: 800;
 }
